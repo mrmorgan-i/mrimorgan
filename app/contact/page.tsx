@@ -84,7 +84,7 @@ export default function ContactPage() {
         <button
           type="submit"
           disabled={status === 'sending'}
-          className="px-4 py-2 font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors disabled:bg-blue-300"
+          className="cursor-pointer px-4 py-2 font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors disabled:bg-blue-300"
         >
           {status === 'sending' ? 'Sending...' : 'Send Message'}
         </button>
