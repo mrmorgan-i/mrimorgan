@@ -7,9 +7,12 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  '/contact': {
+    name: 'contact me',
   },
+  '/projects': {
+    name: 'projects',
+  }
 }
 
 export function Navbar() {
