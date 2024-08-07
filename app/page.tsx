@@ -25,7 +25,7 @@ export default function Page() {
           Featured Skills
         </h2>
         <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {['Programming', 'Graphic Design', 'Video Editing', 'Teaching', 'Mathematics', 'Cryto'].map((skill) => (
+          {['Programming', 'Graphic Design', 'Video Editing', 'Teaching', 'Mathematics', 'Crypto'].map((skill) => (
             <li key={skill} className="flex items-center space-x-2">
               <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
               <span>{skill}</span>
