@@ -27,7 +27,7 @@ const projects = [
   {
     title: 'The Skincare Blend E-commerce Platform',
     description: 'A full-fledged e-commerce website built with modern web technologies. This project demonstrates my full-stack development capabilities, from responsive front-end design to robust back-end implementation and database management. Source code available for review from potential employers/programming enthusiasts upon request. Kindly use the contact me interface',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'NeonDB (Postgres)', 'ShadCN'],
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'NeonDB (Postgres)', 'Algolia'],
     link: 'https://theskincareblend.vercel.app',
   },
 ];
