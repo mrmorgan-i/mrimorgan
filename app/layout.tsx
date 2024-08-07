@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   },
   description: 'A software engineer with a passion for building innovative solutions.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Kelly Israel Lotsu-Morgan',
+    description: 'My Portfolio',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: `Kelly's Portfolio`,
     locale: 'en_US',
     type: 'website',
   },
