@@ -24,7 +24,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://instagram.com/_mr.morgan._"
+            href="https://instagram.com/mrimorgan_"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">instagram</p>
