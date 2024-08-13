@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { BlogPosts } from 'app/components/posts'
 
 export const metadata = {
@@ -12,12 +13,23 @@ export default function Page() {
         <h1 className="text-4xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
           About Me
         </h1>
-        <p className="text-lg text-neutral-800 dark:text-neutral-200 leading-relaxed">
-          Hey, I'm Kelly. I'm a programmer, graphic designer, video editor, and math teacher. I also do crypto on the side. I love to learn and share 
-          my knowledge with others. I'm passionate about technology and how it can be used to improve 
-          our lives. I'm also passionate about mathematics and how it can be used to solve real-world 
-          problems while being fun and engaging. This is my portfolio where I showcase my work and share my thoughts on various disciplines in the form of blog posts.
-        </p>
+        <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+          <div className="flex-shrink-0">
+            <Image
+              src="/me.jpg"
+              alt="Kelly Israel Lotsu-Morgan"
+              width={300}
+              height={300}
+              className="rounded-full grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+          <p className="text-lg text-neutral-800 dark:text-neutral-200 leading-relaxed">
+            Hey, I'm Kelly. I'm a programmer, graphic designer, video editor, and math teacher. I also do crypto on the side. I love to learn and share 
+            my knowledge with others. I'm passionate about technology and how it can be used to improve 
+            our lives. I'm also passionate about mathematics and how it can be used to solve real-world 
+            problems while being fun and engaging. This is my portfolio where I showcase my work and share my thoughts on various disciplines in the form of blog posts.
+          </p>
+        </div>
       </section>
 
       <section className="space-y-6">
