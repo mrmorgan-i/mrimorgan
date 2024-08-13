@@ -1,6 +1,6 @@
 import { getBlogPosts } from 'app/blog/utils'
 
-export const baseUrl = 'http://localhost:3000'
+export const baseUrl = 'https://mrimorgan.com'
 
 export default async function sitemap() {
   let blogs = getBlogPosts().map((post) => ({
