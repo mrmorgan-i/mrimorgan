@@ -22,13 +22,13 @@ const projects = [
     title: 'AI-Powered Landmark Predictor',
     description: 'An innovative application that utilizes Microsoft Azure\'s Custom Vision to predict landmarks from user-uploaded images. This project highlights my expertise in integrating AI and machine learning technologies into practical applications.',
     tech: ['WPF', 'C#', 'Azure Custom Vision', 'AI/ML'],
-    link: '#',
+    link: 'https://github.com/mrmorgan-i/customvision-adventure',
   },
   {
     title: 'The Skincare Blend E-commerce Platform',
     description: 'A full-fledged e-commerce website built with modern web technologies. This project demonstrates my full-stack development capabilities, from responsive front-end design to robust back-end implementation and database management. Source code available for review from potential employers/programming enthusiasts upon request. Kindly use the contact me interface',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'NeonDB (Postgres)', 'Algolia'],
-    link: 'https://theskincareblend.vercel.app',
+    link: 'https://theskincareblend.store',
   },
 ];
 
