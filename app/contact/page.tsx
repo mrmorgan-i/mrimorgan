@@ -39,7 +39,7 @@ export default function ContactPage() {
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Contact Me</h1>
       <p className="mb-4">
-        I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out. Alternatively, you could send a direct email to me at codewithkelly@gmail.com.
+        I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out. Alternatively, you could send a direct email to me at owner@mrimorgan.com.
       </p>
       <form className="space-y-4" onSubmit={handleSubmit}>
         <div>
