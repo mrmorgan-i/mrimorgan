@@ -30,6 +30,12 @@ const projects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'NeonDB (Postgres)', 'Algolia'],
     link: 'https://theskincareblend.store',
   },
+  {
+    title: 'Newman Coding Club Info Website',
+    description: 'A single-page website built with modern web technologies. This project was completed in a weekend! It highlights my strength in delivering swift solutions that are functional.',
+    tech: ['Next.js', 'Typescript', 'Tailwind CSS', 'Node.js', 'Framer-motion', 'Resend API'],
+    link: 'https://newmancoding.club',
+  },
 ];
 
 export default function ProjectsPage() {
